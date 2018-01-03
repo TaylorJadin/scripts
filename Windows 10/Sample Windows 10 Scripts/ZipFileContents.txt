@@ -1,0 +1,11 @@
+This Zip File contains Scripts for 3 Blog Posts
+http://garytown.com/category/osd
+
+01/28/2016 - Add "Run As Different User" to Right Click Menu of Apps
+http://garytown.com/add-run-as-different-user-to-right-click-menu-of-apps
+
+12/14/2015 - Windows 10 OSD Tweak: Change Command Prompt to Powershell..
+http://garytown.com/windows-10-osd-tweak-change-command-prompt-to-powershell-as-default-in-winx-menu-action
+
+11/13/2015 - Windows 10 Customizations during OSD:
+http://garytown.com/windows-10-customizations-during-osd

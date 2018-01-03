@@ -1,0 +1,6 @@
+before 1511, this was applied to HKCU, 1511, it's HKLM, hence the two different files.
+
+In TS, add command line step
+regedit.exe /s RunAsDiffUser\RunAsDiffUser-HKLM.reg
+
+

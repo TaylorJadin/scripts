@@ -1,0 +1,1 @@
+Import-StartLayout -LayoutPath StartScreenTiles\v1\StartMenuLayout.bin -MountPath C:\
