@@ -1,6 +1,6 @@
 clear
 
-echo "This script will make a bootable USB installer for macOS Sierra"
+echo "This script will make a bootable USB installer for macOS"
 echo
 echo "What is the the path of the macOS installer app? (You can drag it into the terminal)"
 read -p "macOS Installer path:" appPath
