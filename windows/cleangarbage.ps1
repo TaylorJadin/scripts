@@ -1,1 +1,1 @@
- ls * -include "._*",".DS*" -recurse -force | remove-item
+ ls * -include "._*",".DS*" -recurse -force | remove-item -force
