@@ -10,5 +10,5 @@ echo "NOTE: This volume will be erased!"
 echo
 read -p "Volume Name:" volumeLabel
 
-sudo $appPath/Contents/Resources/createinstallmedia --volume
-"/Volumes/$volumeLabel" --applicationpath $appPath --nointeraction
+sudo "$appPath/Contents/Resources/createinstallmedia" --volume
+"/Volumes/$volumeLabel" --applicationpath "$appPath" --nointeraction
