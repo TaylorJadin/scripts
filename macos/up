@@ -37,7 +37,8 @@ else
 fi
 
 # brew cask
-brew cu
+echo "Checking for homebrew cask packages..."
+brew cu > /dev/null;
 
 # mac app store (requires https://github.com/mas-cli/mas)
 echo "\nChecking for Mac App Store updates..."
