@@ -36,6 +36,8 @@ else
 	echo "\nNo brew updates available."
 fi
 
+# brew cask
+brew cu
 
 # mac app store (requires https://github.com/mas-cli/mas)
 echo "\nChecking for Mac App Store updates..."
