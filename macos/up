@@ -37,7 +37,11 @@ else
 fi
 
 # brew cask
-brew cu
+echo "\n Install brew cask updates, if any? (y/n)"
+read answer
+	if echo "$answer" | grep -iq "^y" ; then	
+	brew cu
+fi
 
 # mac app store (requires https://github.com/mas-cli/mas)
 echo "\nChecking for Mac App Store updates..."
