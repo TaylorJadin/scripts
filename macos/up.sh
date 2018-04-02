@@ -3,9 +3,6 @@
 
 # Tweaked by https://github.com/taylorjadin based on https://github.com/mayel based on a script by https://github.com/imwally
 
-# get admin right away
-sudo whoami > /dev/null;
-
 # homebrew
 echo "\n\033[1;31mChecking for homebrew packages... \033[0m\n"
 brew update > /dev/null;
