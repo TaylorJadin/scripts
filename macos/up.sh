@@ -3,6 +3,10 @@
 
 # Tweaked by https://github.com/taylorjadin based on https://github.com/mayel based on a script by https://github.com/imwally
 
+# macOS
+echo "\n\033[1;31mChecking for macOS updates... \033[0m\n"
+sudo softwareupdate -i -a
+
 # homebrew
 echo "\n\033[1;31mChecking for homebrew packages... \033[0m\n"
 brew update > /dev/null;
@@ -35,7 +39,3 @@ if [ $num_packages -gt 0 ]; then
 else
 	echo "No Mac App Store updates available."
 fi
-
-# macOS
-echo "\n\033[1;31mChecking for macOS updates... \033[0m\n"
-sudo softwareupdate -i -a
