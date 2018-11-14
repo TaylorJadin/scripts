@@ -26,7 +26,7 @@ fi
 
 # brew cask (requires https://github.com/buo/homebrew-cask-upgrade)
 echo "\n\033[1;31mChecking for homebrew cask packages... \033[0m\n"
-brew cu --yes --quiet --cleanup
+brew cu --yes --quiet
 
 # mac app store (requires https://github.com/mas-cli/mas)
 echo "\n\033[1;31mChecking for Mac App Store updates... \033[0m"
