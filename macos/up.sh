@@ -24,10 +24,6 @@ else
 	echo "No brew updates available."
 fi
 
-# brew cask (requires https://github.com/buo/homebrew-cask-upgrade)
-echo "\n\033[1;31mChecking for homebrew cask packages... \033[0m\n"
-brew cu --yes --quiet --cleanup
-
 # mac app store (requires https://github.com/mas-cli/mas)
 echo "\n\033[1;31mChecking for Mac App Store updates... \033[0m"
 new_packages=$(mas outdated)
@@ -39,3 +35,5 @@ if [ $num_packages -gt 0 ]; then
 else
 	echo "No Mac App Store updates available."
 fi
+
+open /Applications/MacUpdater.app
