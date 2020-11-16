@@ -1,4 +1,5 @@
 #!/bin/bash
+cd ~
 
 # Plugin setup
 echo "" >> ~/.zshrc
