@@ -36,4 +36,6 @@ else
 	echo "No Mac App Store updates available."
 fi
 
-open /Applications/MacUpdater.app
+# MacUpdater.app
+/Applications/MacUpdater.app/Contents/Resources/macupdater_client scan
+/Applications/MacUpdater.app/Contents/Resources/macupdater_client update
