@@ -37,5 +37,4 @@ else
 fi
 
 # MacUpdater.app
-/Applications/MacUpdater.app/Contents/Resources/macupdater_client scan
-/Applications/MacUpdater.app/Contents/Resources/macupdater_client update
+/Applications/MacUpdater.app/Contents/Resources/macupdater_client scan --quiet
